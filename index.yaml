@@ -1,0 +1,44 @@
+apiVersion: v1
+entries:
+  hello-hellm:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-10-25T17:02:19.623527558+08:00"
+    description: A Helm chart for Kubernetes
+    digest: b9746bd39c7a9bbd811d4e675ba40b7e56fa223e38fe3a48de1141173cb24866
+    name: hello-hellm
+    type: application
+    urls:
+    - https://github.com/lifengxian1/yigeku/hello-hellm-0.1.0.tgz
+    version: 0.1.0
+  parse:
+  - apiVersion: v1
+    appVersion: 2.7.2
+    created: "2024-10-25T17:02:19.642846765+08:00"
+    dependencies:
+    - name: mongodb
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 0.4.15
+    description: Parse is a platform that enables users to add a scalable and powerful
+      backend to launch a full-featured app for iOS, Android, JavaScript, Windows,
+      Unity, and more.
+    digest: d83906c63635263be087b827a63394c8d7f60e227273b892167ff90bf1baaf96
+    home: https://parse.com/
+    keywords:
+    - parse
+    - backend
+    - serverless
+    - platform
+    - mbaas
+    - mobile
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: parse
+    sources:
+    - https://github.com/bitnami/bitnami-docker-parse
+    - https://github.com/bitnami/bitnami-docker-parse-dashboard
+    urls:
+    - https://github.com/lifengxian1/yigeku/helm/parse-0.3.6.tgz
+    version: 0.3.6
+generated: "2024-10-25T17:02:19.622825761+08:00"
